@@ -32,9 +32,9 @@ function addResult(tinggi) {
     const getResult = `<p style="font-family: Source Code Pro, monospace; font-size: 16px; margin-left: 230px;"> Tinggi pasang surut yang diprediksi: <span style="text-align: center; border-radius: 0.25rem; background: #eeeeee; color: rgb(9, 171, 59);"> ${tinggi} </p> </span>`
     console.log(result.innerHTML)
     result.insertAdjacentHTML('beforeend', getResult)
-    setInterval(() => {
-        detik()
-    }, 100000);
+    // setInterval(() => {
+    //     detik()
+    // }, 100000);
 
 }
 
