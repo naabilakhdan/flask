@@ -440,10 +440,64 @@ body {
   .inputtahun,
   .inputbulan,
   .inputhari,
-  .inputjam,
-  {
-  margin-left: 40px;
+  .inputjam {
+    margin-left: 40px;
+  }
 }
+
+@media screen and (max-width: 335px) {
+
+  .inputtahun,
+  .inputbulan,
+  .inputhari,
+  .inputjam {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 258px) {
+
+  .inputtahun,
+  .inputbulan,
+  .inputhari,
+  .inputjam {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 774px) {
+
+  .input-container input {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .input-container input {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .input-container input {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+
+  .input-container input {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+
+  .input-container input {
+    width: 230px;
+  }
 }
 
 
