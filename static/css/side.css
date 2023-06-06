@@ -389,6 +389,12 @@ body {
   padding-bottom: 50px;
 }
 
+.text-result {
+  margin-left: 230;
+}
+
+
+
 /* responsive */
 @media screen and (max-width: 1024px) {
   .imgprediksi {
@@ -410,6 +416,11 @@ body {
   .input-container input,
   .imgprediksi {
     width: 320px;
+  }
+
+  .result {
+    margin-left: 2px;
+
   }
 }
 
