@@ -224,11 +224,11 @@ body {
   padding-bottom: 50px;
 }
 
-.card:hover {
+/* .card:hover {
   color: #123bc5;
   transform: scale(0.9);
   transition: all 0.7s;
-}
+} */
 
 .faicon i {
   background: none;
@@ -387,6 +387,63 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 50px;
+}
+
+/* responsive */
+@media screen and (max-width: 1024px) {
+  .imgprediksi {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .imgprediksi,
+  .section-title b {
+    width: 450px;
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+
+  .input-container input,
+  .imgprediksi {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+
+  .section-title b {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+
+  .imgprediksi {
+    width: 280px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+
+  .section-title b {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+
+  .inputtahun,
+  .inputbulan,
+  .inputhari,
+  .inputjam,
+  {
+  margin-left: 40px;
+}
 }
 
 
