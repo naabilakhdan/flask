@@ -34,7 +34,7 @@ function addResult(tinggi) {
     result.insertAdjacentHTML('beforeend', getResult)
     setInterval(() => {
         detik()
-    }, 20000);
+    }, 10000);
 
 }
 
