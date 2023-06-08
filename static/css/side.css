@@ -389,8 +389,9 @@ body {
   padding-bottom: 50px;
 }
 
+
 .text-result {
-  margin-left: 230;
+  margin-left: 440px;
 }
 
 
@@ -418,9 +419,9 @@ body {
     width: 320px;
   }
 
-  .result {
-    margin-left: 2px;
-
+  .text-result {
+    margin-left: 22px;
+    font-size: 14px;
   }
 }
 
@@ -443,6 +444,11 @@ body {
 
   .section-title b {
     font-size: 35px;
+  }
+
+  .text-result {
+    margin-left: 25px;
+    font-size: 12px;
   }
 }
 
