@@ -71,7 +71,7 @@ def result():
     hari = request.args.get('hari')
     jam = request.args.get('jam')
 
-    input_data = np.array([[tahun, bulan,hari,jam]])
+    input_data = np.array([[tahun, bulan,hari,jam]], dtype=np.float64)
     prediksi_tinggi = model.predict(input_data)
     return str(prediksi_tinggi[0])
 
